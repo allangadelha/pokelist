@@ -1,0 +1,30 @@
+.about {
+    text-align: center;    
+}
+
+.about h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.about p {
+    line-height: 1.4;
+    margin: 0 auto  1.5em;
+    width: 150vh;
+}
+
+.about span {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.about a {
+    color: #333333;
+    font-style: italic;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.about a:hover {
+    color: #1073C7;
+}
