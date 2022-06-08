@@ -12,7 +12,7 @@ export default function Layout({children}) {
                 <title>Pokelist</title>
             </Head>
             <Navbar />
-            <main>{children}</main>
+            <main className="main_container">{children}</main>
             <Footer />
         </>
     )

@@ -1,8 +1,10 @@
+import styles from '../../styles/Footer.module.css';
+
 export default function Footer
 () {
 
     return (
-        <footer>
+        <footer className={styles.footer}>
             <p>
                 <span>Pokelist</span> &copy; { new Date().getFullYear() }
             </p>
